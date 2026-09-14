@@ -1,0 +1,16 @@
+# Environment variables and secrets
+.env
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Local databases
+*.db
+
+# Local output
+psql_result.txt
+
+# IDE / editor files
+.vscode/
+.idea/
