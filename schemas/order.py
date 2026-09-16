@@ -1,9 +1,9 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field 
 
 
 class OrderCreate(BaseModel):
     product: str
-    amount: float
+    amount: float = Field(gt=0)
 
 
 class AllOrder(BaseModel):
